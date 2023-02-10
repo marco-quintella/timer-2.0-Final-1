@@ -12,7 +12,7 @@ import {
   rainOn,
   reduce,
   stop
-} from './controls'
+} from './controls.js'
 import {
   buttonCoffeShopOff,
   buttonCoffeShopOn,
@@ -27,7 +27,7 @@ import {
   buttonRainOn,
   buttonReduce,
   buttonStop
-} from './elements'
+} from './elements.js'
 
 buttonPlay.addEventListener("click", play)
 buttonPause.addEventListener("click", pause)

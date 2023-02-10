@@ -1,5 +1,5 @@
-import { resetControls } from './controls'
-import { minutesDisplay, secondsDisplay } from './elements'
+import { resetControls } from './controls.js'
+import { minutesDisplay, secondsDisplay } from './elements.js'
 
 export let timerTimeOut
 

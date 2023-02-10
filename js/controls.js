@@ -1,19 +1,21 @@
 import {
+  buttonCoffeShopOff,
+  buttonCoffeShopOn, buttonFirePlaceOff,
+  buttonFirePlaceOn, buttonFlorestOff,
+  buttonFlorestOn, buttonPause,
+  buttonPlay, buttonRainOff, buttonRainOn, minutesDisplay
+} from './elements.js';
+import {
   audioCoffe,
   audioFire,
   audioFlorest,
   audioRain
-} from './audio';
-import {
-  buttonPause,
-  buttonPlay,
-  minutesDisplay
-} from './elements';
+} from './sounds.js';
 import {
   countdown,
   minutes,
   updateTimerDisplay
-} from './timer';
+} from './timer.js';
 
 export function play () {
   buttonPlay.classList.add("hide");
